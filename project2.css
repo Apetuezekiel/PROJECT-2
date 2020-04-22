@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+}
+
+#container {
+    width: 98vw;
+    height: 98vh;
+    background-color: yellowgreen;
+    border: black 3px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#project2 {
+    position: absolute;
+    top: 2px; left: 2px;
+
+}
+
+#project2 a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    border-bottom: blanchedalmond 2px solid;
+    padding-bottom: 2px;
+}
+
+#project2:hover{
+    font-size: 14px;
+}
+
+#magic {
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#magic:hover {
+    background-color: none;
+    border: 2px solid;
+    border-radius: 5%;
+    color: white;
+}
+
+#magic:click {
+outline: none;
+}
+
+#HEX {
+    font-size: x-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.bgColor {
+    font-family: Arial, Helvetica, sans-serif;
+}
